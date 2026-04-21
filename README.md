@@ -1,7 +1,7 @@
 # NYCU Computer Vision 2026 HW2
 
 - **Student ID:** 112550127
-- **Name:** Pin-Kuan Chiang
+- **Name:** 江品寬 Pin-Kuan Chiang
 
 ## Introduction
 This repository contains the source code for the Digit Detection task of NYCU VRDL Homework 2. We use a **Two-Stage Deformable DETR** architecture with a ResNet-50 backbone. In strict compliance with the assignment rules, only the backbone is initialized with ImageNet pre-trained weights; the entire Transformer encoder, decoder, and task-specific classification heads are trained completely from scratch in the `src/` package. 
@@ -29,7 +29,7 @@ python -m src.train \
   --data_root nycu-hw2-data \
   --output_dir checkpoints_v2 \
   --epochs 150 \
-  --batch_size 12 \
+  --batch_siz｀e 12 \
   --two_stage \
   --lr 2e-4 \
   --lr_backbone 2e-5
